@@ -8,6 +8,6 @@ print(immutable_var)
 mutable_list = [1, 2, 3, 'a', 'b', 'c', 'Modifieds']
 print(mutable_list)
 
-mutable_list = [1, 2, 3, 'a', 'b', 'c'], 'Modifieds'
+mutable_list = [1, 2, 3, 'a', 'b', 'c'], (0)
 mutable_list[0][4] = 7
 print(mutable_list)
